@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
+  font-family: "omyu_pretty";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,6 +20,7 @@
   --color-blue: #03e8f9;
   --color-orange: #f08000;
   --color-gray: #b2beb5;
+  --color-bgray: #7393b3;
 
   /* size */
   --size-max-width: 1200px;
@@ -30,7 +31,7 @@
 }
 
 body {
-  font-family: "GmarketSansMedium";
+  font-family: "omyu_pretty";
   margin: 0;
 }
 
@@ -100,7 +101,7 @@ button:focus {
 }
 .header__menu {
   display: flex;
-  gap: 4px;
+  gap: 8px;
 }
 .header__menu__item {
   padding: 8px 16px;
@@ -171,6 +172,7 @@ button:focus {
 .skill:hover {
   transform: scale(1.5);
 }
+
 .skill__icon {
   font-size: 4rem;
   margin: 1rem 0;
@@ -248,10 +250,20 @@ button:focus {
   background-color: var(--color-accent);
 }
 .tools__tools {
+  background-color: var(--color-bgray);
   padding: 1rem;
 }
 .tools__etc {
   padding: 1rem;
   background-color: var(--color-primary);
   filter: brightness(150%);
+}
+
+/*portfolio*/
+.pf {
+}
+
+.pf__img {
+  width: 300px;
+  height: 200px;
 }
