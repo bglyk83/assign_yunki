@@ -267,3 +267,19 @@ button:focus {
   width: 300px;
   height: 200px;
 }
+
+/*footer*/
+.ft {
+  background-color: var(--color-black);
+  padding: 4rem;
+  text-align: center;
+}
+
+.ft__title {
+  color: var(--color-white);
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.ft__a {
+}
