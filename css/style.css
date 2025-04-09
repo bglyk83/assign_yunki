@@ -426,3 +426,49 @@ button:focus {
 .contact__link:hover {
   color: var(--color-accent);
 }
+
+/*
+
+@media (min-width: 1024px) {
+  #menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #menu1,
+  #menu2,
+  #menu3,
+  #menu4 {
+    width: 24%;
+  }
+
+  #menu5,
+  #menu6,
+  #menu7,
+  #menu8 {
+    width: 24%;
+  }
+}
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding-top: 55px;
+    background-color: var(--color-primary);
+    opacity: 0.3;
+  }
+  .header__menu {
+    flex-direction: column;
+    width: 120px;
+  }
+  .header__meun__item {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
