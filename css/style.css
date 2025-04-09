@@ -452,7 +452,11 @@ button:focus {
 }
 */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
+  .header {
+    justify-content: center;
+  }
+
   .header__nav {
     position: absolute;
     left: 0;
@@ -470,5 +474,29 @@ button:focus {
     display: block;
     width: 100%;
     font-size: 1rem;
+  }
+
+  .skills {
+    flex-direction: column;
+
+    width: 80%;
+  }
+
+  .job {
+    display: block;
+    justify-content: center;
+  }
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 2.5rem;
+    gap: 1rem;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
   }
 }
